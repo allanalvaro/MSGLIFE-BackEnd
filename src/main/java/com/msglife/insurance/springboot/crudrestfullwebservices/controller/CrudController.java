@@ -22,7 +22,7 @@ import com.msglife.insurance.springboot.crudrestfullwebservices.model.Vehicle;
 import com.msglife.insurance.springboot.crudrestfullwebservices.repository.CountryRepository;
 import com.msglife.insurance.springboot.crudrestfullwebservices.repository.VehicleRepository;
 
-//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/v1")
 public class CrudController {
